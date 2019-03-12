@@ -1,0 +1,36 @@
+body { background-color: white;}
+
+.octodex { display: flex; 
+           list-style:none;  
+           justify-content: space-between;
+        }
+  
+.octocat > a img {
+    width:390px;
+    border: 1.5px solid lightgray;
+    display: block;
+    margin: 10px;
+    border-radius: 1%;
+    
+   
+      
+}
+
+.authors img {
+    width:30px;
+}
+ul { padding: 0; }
+
+.image-number { color: lightgray;
+                   
+}
+
+.image-caption { color: darkgray;
+  
+
+}
+
+.image-footer span::before {
+    content: "#"
+    
+}
