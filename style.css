@@ -1,8 +1,12 @@
-body { background-color: white;}
+body { 
+    background-color: white;
+     }
 
-.octodex { display: flex; 
-           list-style:none;  
-           justify-content: space-between;
+.octodex { 
+    display: flex; 
+    list-style:none;  
+    justify-content: space-between;
+    flex-direction: row;
         }
   
 .octocat > a img {
@@ -11,26 +15,59 @@ body { background-color: white;}
     display: block;
     margin: 10px;
     border-radius: 1%;
+   
     
    
       
-} color: r
+} 
 
 .authors img {
     width:30px;
 }
-ul { padding: 0; }
+ul { padding: 0; list-style:none; }
 
-.image-number { color: lightgray;
-                   
+.image-number { 
+    color: lightgray;
+    font-family: monospace;
+    font-weight: bold;
+
+                 
+                
 }
 
-.image-caption { color: darkgray;
-  
-
+.image-caption { 
+    color: darkgray;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    text-align: center;
+    align-items:center;
+    color: #696969;
+    font-family: Geneva;
+    font-size: small;
+    font-weight: bold;
+    
 }
 
-.image-footer span::before {
+.image-number::before {
     content: "#"
     
+}
+
+.image-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+
+.image-caption a:link { 
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+     
 }
